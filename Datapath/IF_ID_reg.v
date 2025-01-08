@@ -6,9 +6,9 @@ module IF_ID_reg (
     input [31:0] pcF,
     input [31:0] InstF,
     input [31:0] pc4F,
-    output [31:0] InstD,
-    output [31:0] pcD,
-    output [31:0] pc4D
+    output reg [31:0] InstD,
+    output reg [31:0] pcD,
+    output reg [31:0] pc4D
 
 );
     
